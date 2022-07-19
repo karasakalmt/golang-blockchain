@@ -1,0 +1,1 @@
+Create file /tmp/blocks before running to use badgerdb 
