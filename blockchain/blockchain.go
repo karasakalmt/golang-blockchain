@@ -24,8 +24,6 @@ func InitBlockChain() *BlockChain {
 	var lastHash []byte
 
 	opts := badger.DefaultOptions(dbPath)
-	// opts.Dir = dbPath
-	// opts.ValueDir = dbPath
 
 	db, err := badger.Open(opts)
 	Handle(err)
